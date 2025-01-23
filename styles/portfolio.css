@@ -73,7 +73,7 @@ nav ul li a {
   font-size: 45px;
   font-weight: 400;
 }
-.name {
+.author_name {
   font-size: 85px;
   font-weight: bold;
 }
@@ -190,6 +190,43 @@ main {
     font-size: 20px;
     font-weight: 400;
 }
-.summary_description{
+.description{
     font-size: 16px;
+}
+footer{
+    background-color: #fff8f3;
+    max-width: 100%;
+    height: 780px;
+   
+}
+.connect{
+    display: flex;
+    margin: 0 400px 0px 400px;
+    padding-top: 150px;
+    justify-content: space-between;
+   
+}
+.icons{
+    width: 120px;
+    height: 24px
+}
+.icons img{
+    padding-left:7px ;
+}
+
+.name{
+    height: 64px;
+    width: 461px;
+}
+.email{
+    height: 64px;
+    width: 461px;
+}
+.message{
+    height: 180px;
+    width: 461px;
+
+}
+.footer_form input{
+  border: none;
 }
