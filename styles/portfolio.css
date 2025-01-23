@@ -1,0 +1,98 @@
+.work-sans-normal{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  .header{
+    background-image: url("../images/developer.png") ,url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left , bottom right;
+
+  }
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 100px;
+}
+.dark_1{
+    color: #181818;
+}
+.dark_2{
+    color: #474747;
+}
+.dark_3{
+    color: #757575;
+}
+.nav_tittle{
+    font-weight: bolder;
+    font-size: 45px;
+    color: black;
+}
+.nav_tittle_r{
+    color:#FD6E0A ;
+}
+nav ul{
+    display: flex;
+    gap: 80px;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    font-size: 20px;
+    text-decoration: none;
+}
+.btn_primary{
+    background-color: #FD6E0A;
+    color: white;
+    width: 150px;
+    height: 64px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 200;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 35px 0 230px;
+}
+.banner_content{
+    max-width: 585px;
+    padding: 30px 30px;
+}
+.hi{
+    font-size: 45px;
+    font-weight: 400;
+}
+.name{
+    font-size: 85px;
+    font-weight: bold;
+}
+.intro{
+    font-size: 18px;
+}
+.download_btn{
+    color: white;
+    background-color: #FD6E0A;
+    font-size: 18px;
+    font-weight: 200;
+    border:none;
+    border-radius: 5px;
+    width: 150px;
+    height: 54px;
+}
+
+.contact_btn{
+    color: #FD6E0A;
+    background-color: white;
+    font-size: 18px;
+    font-weight: 200;
+    border: 0.5px solid #FD6E0A;
+    border-radius: 5px;
+    width: 150px;
+    height: 54px;
+}
