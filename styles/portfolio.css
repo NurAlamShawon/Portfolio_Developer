@@ -3,17 +3,18 @@
     font-optical-sizing: auto;
     font-style: normal;
   }
+  
   .header{
     background-image: url("../images/developer.png") ,url("../images/header_bg.png");
     background-repeat: no-repeat;
     background-position: top left , bottom right;
-
+    margin-bottom: 130px;
   }
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 20px 100px;
+    margin: 0 191px 0 205px;
 }
 .dark_1{
     color: #181818;
@@ -24,10 +25,14 @@ nav{
 .dark_3{
     color: #757575;
 }
+.secondary_bg{
+    background-color: #FFF8F3;
+}
 .nav_tittle{
     font-weight: bolder;
     font-size: 45px;
     color: black;
+
 }
 .nav_tittle_r{
     color:#FD6E0A ;
@@ -58,7 +63,7 @@ nav ul li a{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 35px 0 230px;
+    margin: 0 35px 0 169px;
 }
 .banner_content{
     max-width: 585px;
@@ -95,4 +100,69 @@ nav ul li a{
     border-radius: 5px;
     width: 150px;
     height: 54px;
+}
+.main_pic{
+    width: 580px;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    border-radius: 10px;
+}
+.section_tittle{
+    font-size: 35px;
+    font-weight: bold;
+
+}
+.section_description{
+    font-size: 20px;
+}
+.about_items{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    
+}
+.about_item{
+    margin: 8px;
+}
+
+.item_tittle{
+    font-size: 18px;
+}
+.item_description{
+    font-size: 20px;
+    font-weight: bold;
+}
+.skills{
+    text-align: center;
+    margin-top: 130px;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    text-align: start;
+}
+.card{
+    border-radius: 5px;
+    height: 377px;
+    width: 267px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.card_images{
+    margin: 30px 0 0 30px;
+}
+.card_image{
+    width: 40px;
+}
+
+.card_description{
+margin: 0 30px 30px 30px;
 }
