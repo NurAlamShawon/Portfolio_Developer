@@ -2,6 +2,8 @@
   font-family: "Work Sans", serif;
   font-optical-sizing: auto;
   font-style: normal;
+
+  
 }
 
 .header {
@@ -113,7 +115,6 @@ main {
   border-radius: 10px;
   padding: 130px 150px;
   text-align: center;
-  border-radius: 10px;
 }
 .section_tittle {
   font-size: 35px;
@@ -163,70 +164,119 @@ main {
 .card_description {
   margin: 0 30px 30px 30px;
 }
-.summary{
-    margin: 130px 0 80px 0;
-    text-align: center;
-    margin-bottom: 113px;
+.summary {
+  margin: 130px 0 80px 0;
+  text-align: center;
+  margin-bottom: 113px;
 }
-.summary_education_project{
-    display: flex;
-    gap: 50px;
-    text-align: start;
-    margin-bottom: 30px;
+.summary_education_project {
+  display: flex;
+  gap: 50px;
+  text-align: start;
+  margin-bottom: 30px;
 }
-.summary_part{
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    height: 175px;
-    width: 530px;
-    padding: 10px;
-    margin: 10px 0;
-   
+.summary_part {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  height: 175px;
+  width: 530px;
+  padding: 10px;
+  margin: 10px 0;
 }
-.summary_heading{
-    font-size: 25px;
-    font-weight: bold;
+.summary_heading {
+  font-size: 25px;
+  font-weight: bold;
 }
-.summary_heading_sub{
-    font-size: 20px;
-    font-weight: 400;
+.summary_heading_sub {
+  font-size: 20px;
+  font-weight: 400;
 }
-.description{
-    font-size: 16px;
+.description {
+  font-size: 16px;
 }
-footer{
-    background-color: #fff8f3;
-    max-width: 100%;
-    height: 780px;
-   
+.footer {
+  background-color: #fff8f3;
+  max-width: 100%;
+  height: 780px;
 }
-.connect{
-    display: flex;
-    margin: 0 400px 0px 400px;
-    padding-top: 150px;
-    justify-content: space-between;
-   
+.connect {
+  display: flex;
+  margin: 0 400px 0px 400px;
+  padding-top: 150px;
+  justify-content: space-between;
 }
-.icons{
-    width: 120px;
-    height: 24px
+.icons {
+  width: 120px;
+  height: 24px;
 }
-.icons img{
-    padding-left:7px ;
+.icons img {
+  padding-left: 7px;
 }
 
-.name{
-    height: 64px;
-    width: 461px;
+.name {
+  height: 64px;
+  width: 50%;
 }
-.email{
-    height: 64px;
-    width: 461px;
+.email {
+  height: 64px;
+  width: 50%;
 }
-.message{
-    height: 180px;
-    width: 461px;
-
+.message {
+  height: 180px;
+  width: 461px;
 }
-.footer_form input{
+.message_me{
+  width: 500px;
+}
+.footer_form input {
   border: none;
+width: 100%;
+}
+.hide{
+  display: none;
+}
+@media screen and (max-width: 576px) {
+  .about , .skills ,.summary ,.footer ,.header{
+    width: 540px;
+  }
+ 
+  .cards , .summary_education_project, .about_items{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+  
+  }
+ 
+  
+  .about {
+    border-radius: 10px;
+    padding: 10px 0px;
+    text-align: center;
+ 
+  }
+  .about_item {
+    margin:2px;
+  }
+  .connect {
+    margin: 0 10px 0px 10px;
+    padding-top: 50px;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .summary_part {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    height: 275px;
+    width: 350px;
+    padding: 5px;
+    margin: 2px 0;
+  }
+  .footer {
+    height: 780px;
+  }
+  .footer_form input {
+    border: none;
+  width: calc(90% - 80px);
+  }
+  
 }
