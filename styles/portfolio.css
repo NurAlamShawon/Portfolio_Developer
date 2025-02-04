@@ -229,9 +229,7 @@ main {
   border: none;
   width: 100%;
 }
-.hide {
-  display: none;
-}
+
 @media screen and (max-width: 576px) {
 .header , .about , .skills , .footer ,.summary{
   max-width: 540px;
