@@ -2,8 +2,6 @@
   font-family: "Work Sans", serif;
   font-optical-sizing: auto;
   font-style: normal;
-
-  
 }
 
 .header {
@@ -224,39 +222,66 @@ main {
   height: 180px;
   width: 461px;
 }
-.message_me{
+.message_me {
   width: 500px;
 }
 .footer_form input {
   border: none;
-width: 100%;
+  width: 100%;
 }
-.hide{
+.hide {
   display: none;
 }
 @media screen and (max-width: 576px) {
-  .about , .skills ,.summary ,.footer ,.header{
-    width: 540px;
+.header , .about , .skills , .footer ,.summary{
+  max-width: 540px;
+}
+
+
+  .header > nav {
+    flex-direction: column;
+    margin: 0 10px 0 10px;
   }
- 
-  .cards , .summary_education_project, .about_items{
+  nav > ul {
+    flex-direction: column;
+  }
+  nav >ul li{
+    text-align:left;
+  }
+  .header {
+    background-image: none;
+    padding-left: 10px;
+  }
+  .banner {
+    margin-left: 10px;
+  }
+  
+  .download_btn {
+    margin-bottom: 10px;
+  }
+  .banner {
+    flex-direction: column;
+  }
+  .main_pic {
+    width: 370px;
+  }
+  .cards,
+  .summary_education_project,
+  .about_items {
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 15px;
     text-align: center;
-  
   }
- 
-  
+
   .about {
     border-radius: 10px;
     padding: 10px 0px;
     text-align: center;
- 
   }
   .about_item {
-    margin:2px;
+    margin: 2px;
   }
   .connect {
     margin: 0 10px 0px 10px;
@@ -276,7 +301,6 @@ width: 100%;
   }
   .footer_form input {
     border: none;
-  width: calc(90% - 80px);
+    width: calc(90% - 80px);
   }
-  
 }
